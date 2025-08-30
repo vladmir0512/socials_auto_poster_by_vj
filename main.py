@@ -100,13 +100,12 @@ class TwitchAutoPoster:
             message += f"\n👥 Зрители: {stream_info['viewer_count']}"
         
         # Постим в Telegram
-        self.post_to_telegram(message)
+        #self.post_to_telegram(message)
         
-        # Постим в VK (пока рано)
-       # self.post_to_vk(message)
+        # Постим в VK (отключено в текущей версии)
+        self.post_to_vk(message)
         
         self.last_post_time = current_time
-        print("✅ Пост опубликован во все социальные сети")
     
     def post_to_telegram(self, message):
         """Постинг в Telegram"""
@@ -182,7 +181,7 @@ class TwitchAutoPoster:
         print("🚀 Запуск Twitch AutoPoster...")
         print(f"📺 Мониторинг канала: {TWITCH_STREAMER_LOGIN}")
         print(f"📱 Telegram канал: {TELEGRAM_CHANNEL_ID}")
-        #print(f"🌐 VK группа: {VK_GROUP_ID if VK_GROUP_ID else 'Не настроена'}")
+        print(f"🌐 VK группа: {VK_GROUP_ID if VK_GROUP_ID else 'Не настроена'}")
         print("=" * 50)
         
         while True:

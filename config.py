@@ -12,10 +12,10 @@ TWITCH_STREAMER_LOGIN = os.getenv('TWITCH_STREAMER_LOGIN') # Ваш ник на 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
 
-# # VK Config
-# VK_GROUP_ID = os.getenv('VK_GROUP_ID')
-# VK_ACCESS_TOKEN = os.getenv('VK_ACCESS_TOKEN')
-# VK_API_VERSION = '5.131'
+# VK Config
+VK_GROUP_ID = os.getenv('VK_GROUP_ID')
+VK_ACCESS_TOKEN = os.getenv('VK_ACCESS_TOKEN')
+VK_API_VERSION = '5.131'
 
 # Сообщение
 STREAM_MESSAGE_TEMPLATE = "🎥 {streamer} начал стрим!\n\n{title}\n\nПрисоединяйся: {url}"

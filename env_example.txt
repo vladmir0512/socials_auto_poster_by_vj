@@ -1,0 +1,13 @@
+# Twitch API Configuration
+TWITCH_CLIENT_ID=your_twitch_client_id_here
+TWITCH_CLIENT_SECRET=your_twitch_client_secret_here
+TWITCH_STREAMER_LOGIN=your_twitch_username
+
+# Telegram Bot Configuration
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+TELEGRAM_CHANNEL_ID=@your_channel_username_or_channel_id
+
+# VK API Configuration
+VK_GROUP_ID=your_vk_group_id_here
+VK_ACCESS_TOKEN=your_vk_access_token_here
+VK_API_VERSION=5.131
